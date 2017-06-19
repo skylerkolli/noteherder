@@ -1,11 +1,14 @@
 import React from 'react'
 
-const SignOut = () => {
-    return (
-        <button className="SignOut">
-            SignOut
-        </button>
-    )
+const SignOut = ({ signOut }) => {
+  return (
+    <button
+      className="SignOut"
+      onClick={signOut}
+    >
+      Sign Out
+    </button>
+  )
 }
 
-export default SignOutS
+export default SignOut
